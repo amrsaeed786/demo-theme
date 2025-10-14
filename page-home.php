@@ -2,7 +2,7 @@
 /*
  * Template Name: Home Page
  * Description: A custom home page template for myTheme.
- * Author: Amir Saeedss
+ * Author: Amir Saeed  
  * Version: 1.0
  */
 ?>
