@@ -1,0 +1,166 @@
+/* my custom style */
+body {
+    background-color: #f0f0f0;
+}
+/* Additional styles can be added here */
+ul#menu-main-menu {
+    list-style: none;
+    display: inline-flex;
+    /* height: 55px; */
+    margin: 0px;
+}
+ul#menu-main-menu li {
+    margin-right: 20px;
+}
+ul#menu-main-menu li a{
+    text-decoration: none;
+    color: #333;   
+    font-weight: 600;
+    font-size: 16px;     
+}
+.main-menu {
+        display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    background: #0101;
+}
+.site-footer {
+    background: #193140;
+    color: #fff;
+    padding: 20px 0;
+}
+.site-footer p {
+    color: #fff;
+
+    margin: 0;
+    font-size: 14px;    
+
+}
+ul#menu-footer-menu {
+    list-style: none;
+    color: #fff;
+    display: inline-flex;
+    margin: 0px;
+}
+ul#menu-footer-menu  li {
+    margin-right: 20px;
+}
+ul#menu-footer-menu  li a{
+    color: #fff;
+    font-size: 16px;
+     text-decoration: none;
+}
+.menu-footer-menu-container {
+    justify-content: end;
+    display: flex;
+}
+.menu-icon .bar1, .menu-icon .bar2, .menu-icon .bar3 {
+    width: 35px;
+    height: 3px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+button.check-button {
+    display: none;
+}
+
+.blog-title {
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+.blog-title a{
+    text-decoration: none;
+    color: #000;
+}
+
+.post-thumbnail-img img {
+    width: 355px;
+    height: auto;
+}
+
+aside {
+        background: #0101;
+    padding: 26px 20px;
+}
+
+.services-section {
+    background-color: #193140;
+    padding: 30px;
+}
+.services-section h1 {
+    color: #fff;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 36px;
+}
+.services-section .services-items h3 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    
+}
+.services-section .services-items p{
+    color: #fff;
+    font-size: 16px;
+ 
+    
+}
+
+input#searchsubmit {
+    background: #000;
+    color: #fff;
+    padding: 5px 10px;
+}
+input#s {
+    padding: 5px;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    
+button.check-button {
+    display: block;
+}
+.menu-main-menu-container {
+    display: none;
+}
+
+ .main-menu {
+    display: block;;
+ }
+ul#menu-main-menu {
+    list-style: none;
+    display: block;
+    /* height: 55px; */
+    margin: 0px;
+    margin-top: 20px;
+    background: black;
+    padding: 10px 19px;
+}
+ul#menu-main-menu li a {
+    color: #fff;
+}
+ul#menu-main-menu li {
+    padding: 10px 0;
+    border-bottom: 1px solid #fff;
+}
+button.check-button {
+    margin: 0 auto;
+}
+.site-footer p {
+    text-align: center;
+    margin-bottom: 10px;;
+}
+.menu-footer-menu-container {
+    justify-content: center;
+    display: flex;
+}
+
+
+}
+
+
