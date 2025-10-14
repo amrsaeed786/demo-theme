@@ -2,6 +2,8 @@
 /*
  * Template Name: Home Page
  * Description: A custom home page template for myTheme.
+ * Author: Amir Saeed
+ * Version: 1.0
  */
 ?>
 <?php get_header(); ?>
