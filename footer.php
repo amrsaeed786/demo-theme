@@ -12,7 +12,7 @@
 </footer>
 </div>
 </body>
-<?php wp_footer(); ?>
+<?php wp_footer(); ?> 
 <!-- end footer -->
 
 
